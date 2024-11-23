@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.n ,.m{
+    display: flex;
+    position: relative;
+}
+.l{
+    position: relative;
+    left: 55%;
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid rgb(62, 183, 231);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px hsl(197, 78%, 57%);
+    transition: 0.6s;
+}
+.n{
+    position: absolute;
+    margin: 30px;
+    left: 8.5%;
+    font-size: 30px;
+   
+}
+.nav li:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: rgb(62, 183, 231);
+    box-shadow: none;
+
+}
+.nav a{
+    text-decoration: none;
+    padding:px;
+}
+
+/*Home*/
+.home{
+    margin-top: 10%;
+    margin-left: 10%;
+    position:relative;
+}
+.home img{
+    float: right;
+    height: 500px;
+    width: 450px;
+    margin-right: 15%;
+    transition-duration: 1s;
+    border-radius: 60%;
+}
+.home h3 {
+    padding: 10px;
+    font-size: 40px;
+}
+.home h2{
+    margin-left: 8px;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+.home h2 span{
+    color:rgb(62, 183, 231) ;
+}
+.home p{
+    clear: left;
+    margin-left: 8px;
+    margin-top: 25px;
+    font-size: 17px;
+    word-spacing: 5px;
+}
+.home .b1{
+    margin-top: 2%;
+    margin-left: 7px;
+    background-color: rgb(62, 183, 231);
+    width: 150px;
+    border-radius: 7px;
+    border: none;
+    height: 46px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+.home .b1:hover{
+    background-color: transparent;
+    color: rgb(62, 183, 231);
+    border: 1px solid rgb(62, 183, 231);
+    box-shadow: 1px 1px 5px 5px rgb(62, 183, 231);
+}
+.home .b2{
+    margin-top: 2%;
+    margin-left: 15px;
+    background-color: rgb(62, 183, 231);
+    width: 180px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    height: 46px;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+.home .b2:hover{
+    background-color: transparent;
+    color: rgb(62, 183, 231);
+    border: 1px solid rgb(62, 183, 231);
+    box-shadow: 0px 0px 5px 5px rgb(62, 183, 231);
+}
+/*about*/
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile {
+    margin-right: 150px;
+    position: relative;
+    margin-left: 15%;
+}
+
+.profile img {
+    height: 500px;
+    width: 450px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    box-shadow: 0 0 15px 5px  rgb(62, 183, 231);
+}
+
+.about h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.about h1 span {
+    color: rgb(62, 183, 231);
+}
+
+.about h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.about h2 span {
+    color: rgb(62, 183, 231);
+}
+
+.about p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+
+/*Projects*/
+html{
+    scroll-behavior: smooth;
+}
+.div1{
+    position: relative;
+    margin: 5%;
+    text-align: center;
+    margin-top: 10%;
+}
+.div1 h2{
+    font-size: 35px;
+}
+.parent{
+    position: relative;
+    margin: 40px;
+    height: 240px;
+    width: 320px;
+    border: 1px solid rgb(222, 221, 221);
+    text-align: center;
+    background-color: rgb(222, 221, 221);
+    color: black;
+    border-radius: 7px;
+    
+    display:inline-block;
+    box-shadow: 0px 0px 15px 5px rgb(62, 183, 231);
+}
+.parent h3 {
+    position: absolute;
+    top: 35px;
+     left: 21%;
+    text-align: center;
+    background-color: rgb(222, 221, 221);
+    color: black;
+}
+.para2{
+    position: absolute;
+    top: 35%;
+    background-color: rgb(222, 221, 221);
+    color: black;
+}
+
+.a2{
+    position: absolute;
+    right: 26%;
+    top: 60%;
+    background-color: rgb(222, 221, 221);
+    color: black;
+    text-decoration: none;
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(62, 183, 231);
+    border: none;
+    width: 150px;
+    height: 46px;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.parent button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid rgb(62, 183, 231);
+    box-shadow: 1px 1px 5px 5px rgb(62, 183, 231);
+}
+
+
+
+
+/*Contact*/
+html{
+    scroll-behavior: smooth;
+}
+.contact{
+    position: relative;
+    text-align: center;
+    margin-top: 2%;
+    padding: 30px;
+}
+.contact h2{
+    margin-top: 10%;
+    font-size: 40px;
+}
+form{
+    margin: 20px;
+}
+form input{
+    height: 60px;
+    width: 650px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid  rgb(62, 183, 231);
+    border-radius: 10px;
+    background-color: rgb(210, 232, 252);
+    box-shadow: 1px 1px 5px 2px rgb(62, 183, 231);
+}
+form input:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+form textarea{
+    height: 150px;
+    width: 650px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid  rgb(62, 183, 231);
+    border-radius: 10px;
+    background-color: rgb(210, 232, 252);
+    box-shadow: 1px 1px 5px 2px rgb(62, 183, 231);
+
+}
+form textarea:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+form button{
+    margin-left: 50px;
+    background-color: rgb(62, 183, 231);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 46px;
+    font-size: 0.9em;
+    transition: 0.4s;
+}
+form button:hover{
+    background-color: transparent;
+    color: rgb(62, 183, 231);
+    border: 1px solid rgb(62, 183, 231);
+    box-shadow: 1px 1px 5px 5px rgb(62, 183, 231);
+}
+/*footer*/
+
+footer{
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+footer i{
+    padding: 10px;
+    border: 3px solid rgb(62, 183, 231);
+    margin-left: 20px;
+    border-radius: 50%;
+    color:  rgb(62, 183, 231);
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+footer ul{
+    display: flex;
+    margin-left: 38%;
+    padding: 10px;
+}
+footer li{
+    padding: 20px;
+}
+footer p{
+    margin-left: 2%;
+}
+
+footer span i:hover{
+    background-color: transparent;
+    color:rgb(62, 183, 231) ;
+    box-shadow: 0px 0px 15px 5px rgb(62, 183, 231);
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
